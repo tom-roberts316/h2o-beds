@@ -9,7 +9,13 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  active = false;
+
   ngOnInit() {
+  }
+
+  onClick() {
+    this.active = !this.active;
   }
 
 }
