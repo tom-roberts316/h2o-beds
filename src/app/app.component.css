@@ -25,5 +25,9 @@ nav a:hover {
   background-color: #cfd8dc;
 }
 nav a.active {
-  color: #039be5;
+  color: #4265f4;
+}
+
+section {
+  padding-top: 10px
 }
