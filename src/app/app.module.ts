@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import { UiModule } from './ui/ui.module';
+import { Contact } from './contact';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { UiModule } from './ui/ui.module';
     AppRoutingModule,
     UiModule
   ],
-  providers: [],
+  providers: [ Contact ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
