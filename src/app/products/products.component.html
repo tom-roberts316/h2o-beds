@@ -1,3 +1,19 @@
-<p>
-  products works!
-</p>
+<section class="flex-container">
+  <h2><b>Products</b></h2>
+  <p>Here at H<sub>2</sub>O Beds we have a range of products to suit your waterbed needs:</p>
+  <ul>
+    <li *ngFor="let product of products">
+      <div>
+        <h2>{{product.title}}</h2>
+        <div class="row">
+          <div class="col-1 column" style="float: left; max-width: 500px;">
+            <img class="productImg" src={{product.img}}>
+          </div>
+          <div class="col-2 column">
+            <p style="padding-left: 20px;">{{product.description}}</p>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</section>
