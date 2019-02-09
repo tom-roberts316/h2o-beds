@@ -1,6 +1,9 @@
-.footer {
+#footer {
   position: relative;
-  bottom: 0;
-  width: 95%;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  /* bottom: 0; */
+  width: 100%;
   background-color: #f5f5f5;
 }

@@ -1,0 +1,22 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#layout-container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#ff0;
+   padding:10px;
+}
+#content {
+  background-color: aliceblue;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-color: rgba(78, 78, 78, 0.61);
+  padding:10px;
+  padding-bottom:60px;
+}
