@@ -19,5 +19,6 @@
 
 .productImg {
   max-width: 90%;
+  max-height: 344px;
   height: auto;
 }

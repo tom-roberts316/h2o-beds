@@ -16,17 +16,26 @@
   border-color: rgba(78, 78, 78, 0.61);
 }
 .nav a:visited, a:link {
-  background-color: rgba(51, 102, 153, 0.527);
-  color: rgb(94, 94, 94);
+  /* background-color: rgba(51, 102, 153, 0.527); */
+  background-color: rgba(51, 102, 153, 0.856);
+  color: white;
 }
 .nav a:hover {
   color: black;
   background-color: #cfd8dc;
 }
 .nav a.active {
-  color: white;
-  background-color: rgba(51, 102, 153, 0.856);
+  color: rgba(51, 102, 153, 0.856);
+  font-weight: bolder;
+  background-color: white;
 }
 ul {
   list-style: none;
+}
+
+#phone-header {
+  text-align: right;
+  font-size: 220%;
+  font-weight: normal;
+  color: rgb(220, 110, 20);
 }

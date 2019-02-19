@@ -3,11 +3,17 @@ import { Service } from './service';
 export const SERVICES: Service[] = [
   { title: 'Removals',
     img: 'src\\assets\\images\\waterbed-removals.jpg',
-    description: 'Whether you are moving house, decorating or just want to feng shui your room then our removals service will....',
+    description: 'Waterbeds, once full, require drainage if they are to be moved. Attempting to move a waterbed can do serious '
+      + 'damage to the bed and your room if the mattress ruptures. We offer drainage, removals, re-assembly and filling services '
+      + 'if your bed really needs to be moved. Please be aware that sometimes, depending on the property, '
+      + 'it is not possible to re-fill with warm water, so the bed may take a couple of days to warm up to a comfortable sleeping '
+      + 'temperature after being refilled.',
     price: 10.00 },
   { title: 'Puncture Repair',
     img: 'src\\assets\\images\\waterbed-puncture.jpg',
-    description: 'Vinyl waterbed matresses are extremely tough, however leakages can occur due to accidental damage or old age. Unfortunately even matresses that have received the best of care have a limited lifespan, but repairs can extend their lifetime. If you notice your waterbed leaking you can repair it yourself, or you can have it looked over by a professional. We always do our best to fix a leak at minimal cost, but we know when it\'s time for a new matress.',
+    description: 'Vinyl waterbed matresses are extremely tough, however leakages can occur due to accidental damage or old age. '
+      + 'Unfortunately even matresses that have received the best of care have a limited lifespan, but repairs can extend their lifetime. '
+      + 'If you notice your waterbed leaking you can repair it yourself, or you can have it looked over by a professional.',
     price: 10.00 },
 ];
 
