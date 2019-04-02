@@ -2,7 +2,7 @@ import { Service } from './service';
 
 export const SERVICES: Service[] = [
   { title: 'Removals',
-    img: 'src\\assets\\images\\waterbed-removals.jpg',
+    img: '.\\.\\assets\\images\\waterbed-removals.jpg',
     description: 'Waterbeds, once full, require drainage if they are to be moved. Attempting to move a waterbed can do serious '
       + 'damage to the bed and your room if the mattress ruptures. We offer drainage, removals, re-assembly and filling services '
       + 'if your bed really needs to be moved. Please be aware that sometimes, depending on the property, '
@@ -10,7 +10,7 @@ export const SERVICES: Service[] = [
       + 'temperature after being refilled.',
     price: 10.00 },
   { title: 'Puncture Repair',
-    img: 'src\\assets\\images\\waterbed-puncture.jpg',
+    img: '.\\.\\assets\\images\\waterbed-puncture.jpg',
     description: 'Vinyl waterbed matresses are extremely tough, however leakages can occur due to accidental damage or old age. '
       + 'Unfortunately even matresses that have received the best of care have a limited lifespan, but repairs can extend their lifetime. '
       + 'If you notice your waterbed leaking you can repair it yourself, or you can have it looked over by a professional.',
